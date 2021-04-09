@@ -22,17 +22,26 @@ It should be safe to use.
 I dont want to turn this into a medical startup, I want this to be avaliable for everyone and hopefully save lives.
 
 a) GP: Would you accept a MP3 file (for example) sent to you in email, describing which part of the lung the patient is currently monitoring, and would you use it for treatment?
+
 b) General: should we re-use parts of a stethoscope (avaliableo on aliexpress for about 3 EUR)
+
 c) ME: Should the device be integrated into the (so called) bell or does the sound make any difference at the end of the tubing
+
 d) USB connection of a PCM29xx ADC/DAC is supported on Android. Does this work on iPhone? What cable is needed for this? 
+
 e) Enclosure design, 3D printable. 
    Probably injection moulding would be an option if we want to make out many of these devices. 
    Using off the shelf enclosure? 
    Baloon as membrane?
+   
 f) What frequency range is nessesary to record? Should we filter outside this band?
+
 g) TI's PCM2900C probably satisfies the requirements so it is selected for now
+
 h) Mems microphone as default, with electret microphoe as substitute alternative
+
 i) what happens if the phone sets the default audio output to the PCM2900 and there is no speaker. can we output instructions through phone speaker?
+
 j) Smartphone development a can of worms
 
 
